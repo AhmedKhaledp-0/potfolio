@@ -47,6 +47,9 @@
     ]
   },
   "devDependencies": {
-    "prettier": "^2.7.1"
+    "locomotive-scroll": "^4.1.4",
+    "prettier": "^2.7.1",
+    "react-router-dom": "^6.24.1",
+    "swiper": "^11.1.4"
   }
 }

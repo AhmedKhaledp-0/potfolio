@@ -1,27 +1,13 @@
-import './App.css';
-import Nav from './components/Nav';
-import Hero from './components/Hero';
-import Contact from './components/Contact';
-import Skills from './components/Skills';
-import Work from './components/Works';
-import Footer from './components/Footer';
+import "./App.css";
+import NewHero from "./components/NewHero";
+import HomePage from "./components/HomePage";
+import AsideNavbar from "./components/AsideNavbar";
 
 function App() {
   return (
     <div className="App">
-      <div className='container'>
-      <Nav/>
-      <main>
-        <Hero/>
-      </main>
-      <Skills/>
-      <Work/>
-      <Contact/>
-      <footer>
-          <Footer/>
-      </footer>
-      </div>
-
+      <AsideNavbar />
+      <HomePage />
     </div>
   );
 }
